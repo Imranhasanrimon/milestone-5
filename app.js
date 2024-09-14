@@ -8,5 +8,6 @@
 // console.log(h1Manipulation);
 // const mainName = document.getElementsByClassName('main-name');
 // console.log(mainName);
-const query = document.querySelectorAll('.parent li');
-console.log(query);
+// const query = document.querySelectorAll('.parent li');
+// console.log(query);
+
