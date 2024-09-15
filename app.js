@@ -17,17 +17,26 @@
 // console.log(title.classList);
 // title.classList.remove('atrr');
 // console.log(title.classList);
-document.getElementById('first').style.color = 'red';
-document.getElementById('first').setAttribute('title', 'this is tooltip')
-const liStyles = document.querySelectorAll('li');
-for (let i of liStyles) {
-    i.style.border = ('2px solid red')
-    i.style.width = ('50%')
-    i.style.marginBottom = ('10px')
-    i.style.color = 'red'
+// document.getElementById('first').style.color = 'red';
+// document.getElementById('first').setAttribute('title', 'this is tooltip')
+// const liStyles = document.querySelectorAll('li');
+// for (let i of liStyles) {
+//     i.style.border = ('2px solid red')
+//     i.style.width = ('50%')
+//     i.style.marginBottom = ('10px')
+//     i.style.color = 'red'
+// }
+// // console.log(liStyles);s
+// const newLi = document.getElementById('parent');
+// const li = document.createElement('li');
+// li.innerText = 'Bogura'
+// newLi.appendChild(li)
+
+/*           Revision              */
+// _______________________________________
+// console.log(document);
+const liCollection = document.getElementsByTagName('li')
+for (let i of liCollection) {
+    console.log(i.innerHTML);
 }
-// console.log(liStyles);s
-const newLi = document.getElementById('parent');
-const li = document.createElement('li');
-li.innerText = 'Bogura'
-newLi.appendChild(li)
+// console.log(liCollection);
