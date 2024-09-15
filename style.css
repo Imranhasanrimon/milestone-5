@@ -1,3 +1,7 @@
 body {
     background-color: rgb(29, 29, 29);
 }
+
+.bg-pink {
+    background-color: pink;
+}

@@ -59,3 +59,14 @@
 // console.log(first.classList);
 // const list = document.getElementById('parent');
 // console.log(list.innerText);
+const lists = document.querySelectorAll('li');
+for (let i of lists) {
+    i.style.border = '2px solid gray'
+    i.style.width = '50%';
+    i.style.padding = '10px 20px'
+    i.style.background = 'white'
+    i.style.marginBottom = '10px'
+    i.style.borderRadius = '5px'
+}
+const naj = document.getElementById('naj');
+naj.classList.add('bg-pink')
