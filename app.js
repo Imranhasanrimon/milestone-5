@@ -35,8 +35,22 @@
 /*           Revision              */
 // _______________________________________
 // console.log(document);
-const liCollection = document.getElementsByTagName('li')
-for (let i of liCollection) {
-    console.log(i.innerHTML);
-}
+// const liCollection = document.getElementsByTagName('li')
+// for (let i of liCollection) {
+//     console.log(i.innerHTML);
+// }
 // console.log(liCollection);
+// const collection = document.getElementsByClassName('main-name');
+// // collection.style.color = 'red'
+// for (let i of collection) {
+//     console.log(i);
+// }
+// const najmul = document.getElementById('najmul');
+// najmul.style.color = 'red'
+// console.log(najmul);
+// const query = document.querySelector('#parent .main-name');
+// for (let i of query) {
+//     i.style.color = 'red';
+// }
+// query.style.color = 'red';
+// console.log(query);
