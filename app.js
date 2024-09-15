@@ -106,10 +106,21 @@
 //     document.body.style.background = 'purple'
 // })
 
-document.getElementById('btn').addEventListener('click', function () {
-    let textValue = document.getElementById('text');
-    const inp = document.getElementById('input-field');
-    const inpValue = inp.value;
-    textValue.innerText = inpValue;
-    inp.value = ''
-})
+// document.getElementById('btn').addEventListener('click', function () {
+//     let textValue = document.getElementById('text');
+//     const inp = document.getElementById('input-field');
+//     const inpValue = inp.value;
+//     textValue.innerText = inpValue;
+//     inp.value = ''
+// })
+// document.getElementById('btn').addEventListener('click', function () {
+//     const text = document.getElementById('text-field');
+//     const textValue = text.value
+//     const commentBox = document.getElementById('comments');
+//     const createElement = document.createElement('p');
+//     createElement.innerText = textValue;
+//     commentBox.append(createElement)
+//     text.value = ''
+//     text.style.background = 'gray'
+
+// })
