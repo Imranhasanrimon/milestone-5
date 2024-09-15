@@ -26,4 +26,8 @@ for (let i of liStyles) {
     i.style.marginBottom = ('10px')
     i.style.color = 'red'
 }
-console.log(liStyles);
+// console.log(liStyles);s
+const newLi = document.getElementById('parent');
+const li = document.createElement('li');
+li.innerText = 'Bogura'
+newLi.appendChild(li)
