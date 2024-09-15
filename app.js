@@ -90,3 +90,14 @@
 // <li>Dhaka</li>
 // `;
 // where.appendChild(neUl)
+
+
+/*         Module 26          */
+function makeRed() {
+    document.body.style.background = 'red'
+}
+function makeBlue() {
+    document.body.style.background = 'blue'
+}
+const blue = document.getElementById('blue');
+blue.onclick = makeBlue;
