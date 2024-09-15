@@ -1,3 +1,4 @@
+// ______________Module 25______________
 // const liCollection = document.getElementsByTagName('li');
 // for (let i of liCollection) {
 //     console.log(i);
@@ -10,4 +11,19 @@
 // console.log(mainName);
 // const query = document.querySelectorAll('.parent li');
 // console.log(query);
-
+// console.log(document.getElementById('first').style);
+// const title = document.getElementById('first');
+// console.log(title.getAttribute('class'));
+// console.log(title.classList);
+// title.classList.remove('atrr');
+// console.log(title.classList);
+document.getElementById('first').style.color = 'red';
+document.getElementById('first').setAttribute('title', 'this is tooltip')
+const liStyles = document.querySelectorAll('li');
+for (let i of liStyles) {
+    i.style.border = ('2px solid red')
+    i.style.width = ('50%')
+    i.style.marginBottom = ('10px')
+    i.style.color = 'red'
+}
+console.log(liStyles);
