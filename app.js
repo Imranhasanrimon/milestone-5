@@ -59,24 +59,34 @@
 // console.log(first.classList);
 // const list = document.getElementById('parent');
 // console.log(list.innerText);
-const lists = document.querySelectorAll('li');
-for (let i of lists) {
-    i.style.border = '2px solid gray'
-    i.style.width = '50%';
-    i.style.padding = '10px 20px'
-    i.style.background = 'white'
-    i.style.marginBottom = '10px'
-    i.style.borderRadius = '5px'
-}
-const naj = document.getElementById('najmul');
-naj.classList.add('bg-pink')
-const sec = document.getElementById('list-section')
+// const lists = document.querySelectorAll('li');
+// for (let i of lists) {
+//     i.style.border = '2px solid gray'
+//     i.style.width = '50%';
+//     i.style.padding = '10px 20px'
+//     i.style.background = 'white'
+//     i.style.marginBottom = '10px'
+//     i.style.borderRadius = '5px'
+// }
+// const naj = document.getElementById('najmul');
+// naj.classList.add('bg-pink')
+// const sec = document.getElementById('list-section')
+// // console.log(sec.childNodes);
+
+// //creating elements
+// const newList = document.createElement('li')
+// newList.innerText = 'list one'
+// console.log(newList);
+// // document.getElementById('parent').append(newList)
+// console.log(sec.parentNode.parentNode.parentNode);
 // console.log(sec.childNodes);
 
-//creating elements
-const newList = document.createElement('li')
-newList.innerText = 'list one'
-console.log(newList);
-// document.getElementById('parent').append(newList)
-console.log(sec.parentNode.parentNode.parentNode);
-// console.log(sec.childNodes);
+//new section by append
+// const where = document.getElementById('list-section');
+// const neUl = document.createElement('ul');
+// neUl.innerHTML = `
+// <li>Rajshahi</li>
+// <li>Bogura</li>
+// <li>Dhaka</li>
+// `;
+// where.appendChild(neUl)
