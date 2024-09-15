@@ -93,11 +93,23 @@
 
 
 /*         Module 26          */
-function makeRed() {
-    document.body.style.background = 'red'
-}
-function makeBlue() {
-    document.body.style.background = 'blue'
-}
-const blue = document.getElementById('blue');
-blue.onclick = makeBlue;
+// function makeRed() {
+//     document.body.style.background = 'red'
+// }
+// function makeBlue() {
+//     document.body.style.background = 'blue'
+// }
+// const blue = document.getElementById('blue');
+// blue.onclick = makeBlue;
+
+// document.getElementById('purple').addEventListener('click', function () {
+//     document.body.style.background = 'purple'
+// })
+
+document.getElementById('btn').addEventListener('click', function () {
+    let textValue = document.getElementById('text');
+    const inp = document.getElementById('input-field');
+    const inpValue = inp.value;
+    textValue.innerText = inpValue;
+    inp.value = ''
+})
