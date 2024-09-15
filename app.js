@@ -68,5 +68,15 @@ for (let i of lists) {
     i.style.marginBottom = '10px'
     i.style.borderRadius = '5px'
 }
-const naj = document.getElementById('naj');
+const naj = document.getElementById('najmul');
 naj.classList.add('bg-pink')
+const sec = document.getElementById('list-section')
+// console.log(sec.childNodes);
+
+//creating elements
+const newList = document.createElement('li')
+newList.innerText = 'list one'
+console.log(newList);
+// document.getElementById('parent').append(newList)
+console.log(sec.parentNode.parentNode.parentNode);
+// console.log(sec.childNodes);
