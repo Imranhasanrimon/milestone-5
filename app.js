@@ -54,3 +54,8 @@
 // }
 // query.style.color = 'red';
 // console.log(query);
+// const first = document.getElementById('first')
+// first.classList.add('adding')
+// console.log(first.classList);
+// const list = document.getElementById('parent');
+// console.log(list.innerText);
