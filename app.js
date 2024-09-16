@@ -156,3 +156,8 @@
 // console.log(heading.textContent);
 // console.log(heading.innerText);
 // console.log(heading.innerHTML);
+
+const parent = document.querySelector('#items')
+const children = parent.children;
+console.log(parent);
+console.log(children);
