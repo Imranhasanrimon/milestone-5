@@ -179,15 +179,41 @@
 //     document.getElementById('text').style.display = 'none'
 // })
 
-document.getElementById('btn').addEventListener('click', function () {
-    document.getElementById('text').style.color = 'tomato';
-    console.log('clicked');
+// document.getElementById('btn').addEventListener('click', function () {
+//     document.getElementById('text').style.color = 'tomato';
+//     console.log('clicked');
+// })
+
+// document.getElementById('inp').addEventListener('keyup', function (event) {
+//     if (event.target.value === 'color') {
+//         document.getElementById('btn').removeAttribute('disabled')
+//     } else {
+//         document.getElementById('btn').setAttribute('disabled', true)
+//     }
+// })
+document.getElementById('item2').addEventListener('click', function (event) {
+    console.log('item2 first clicked');
+    event.stopImmediatePropagation()
+})
+document.getElementById('item2').addEventListener('click', function (event) {
+    console.log('item2 second clicked');
+    event.stopImmediatePropagation()
+})
+document.getElementById('item2').addEventListener('click', function (event) {
+    console.log('item2 clicked');
+    event.stopPropagation()
+})
+document.getElementById('item2').addEventListener('click', function (event) {
+    console.log('item2 clicked');
+    event.stopPropagation()
 })
 
-document.getElementById('inp').addEventListener('keyup', function (event) {
-    if (event.target.value === 'color') {
-        document.getElementById('btn').removeAttribute('disabled')
-    } else {
-        document.getElementById('btn').setAttribute('disabled', true)
-    }
+document.getElementById('ul').addEventListener('click', function (stop) {
+    console.log('ul clicked');
+    stop.stopPropagation()
+
+})
+
+document.getElementById('sec').addEventListener('click', function () {
+    console.log('section clicked');
 })
