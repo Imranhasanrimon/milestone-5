@@ -157,7 +157,24 @@
 // console.log(heading.innerText);
 // console.log(heading.innerHTML);
 
-const parent = document.querySelector('#items')
-const children = parent.children;
-console.log(parent);
-console.log(children);
+// const parent = document.querySelector('#items')
+// const children = parent.children;
+// console.log(parent);
+// console.log(children);
+
+
+
+/*           Revision              */
+// _______________________________________
+document.getElementById('inp').addEventListener('keyup', function (event) {
+    const inpValue = event.target.value;
+    const btn = document.getElementById('btn')
+    if (inpValue === 'delete') {
+        btn.removeAttribute('disabled')
+    } else {
+        btn.setAttribute('disabled', true)
+    }
+})
+document.getElementById('btn').addEventListener('click', function () {
+    document.getElementById('text').style.display = 'none'
+})
