@@ -166,15 +166,28 @@
 
 /*           Revision              */
 // _______________________________________
-document.getElementById('inp').addEventListener('keyup', function (event) {
-    const inpValue = event.target.value;
-    const btn = document.getElementById('btn')
-    if (inpValue === 'delete') {
-        btn.removeAttribute('disabled')
-    } else {
-        btn.setAttribute('disabled', true)
-    }
-})
+// document.getElementById('inp').addEventListener('keyup', function (event) {
+//     const inpValue = event.target.value;
+//     const btn = document.getElementById('btn')
+//     if (inpValue === 'delete') {
+//         btn.removeAttribute('disabled')
+//     } else {
+//         btn.setAttribute('disabled', true)
+//     }
+// })
+// document.getElementById('btn').addEventListener('click', function () {
+//     document.getElementById('text').style.display = 'none'
+// })
+
 document.getElementById('btn').addEventListener('click', function () {
-    document.getElementById('text').style.display = 'none'
+    document.getElementById('text').style.color = 'tomato';
+    console.log('clicked');
+})
+
+document.getElementById('inp').addEventListener('keyup', function (event) {
+    if (event.target.value === 'color') {
+        document.getElementById('btn').removeAttribute('disabled')
+    } else {
+        document.getElementById('btn').setAttribute('disabled', true)
+    }
 })
