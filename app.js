@@ -124,3 +124,26 @@
 //     text.style.background = 'gray'
 
 // })
+document.getElementById('item-2').addEventListener('click', function (event) {
+    console.log('li is clicked');
+    event.stopPropagation()
+    event.stopImmediatePropagation()
+})
+document.getElementById('item-2').addEventListener('click', function (event) {
+    console.log('li is second clicked');
+})
+document.getElementById('item-2').addEventListener('click', function (event) {
+    console.log('li is third clicked');
+})
+document.getElementById('item-2').addEventListener('click', function (event) {
+    console.log('li is fourth clicked');
+})
+
+
+
+
+
+
+document.getElementById('ul').addEventListener('click', function () {
+    console.log('ul is clicked');
+})
