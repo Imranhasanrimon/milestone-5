@@ -217,3 +217,9 @@
 // document.getElementById('sec').addEventListener('click', function () {
 //     console.log('section clicked');
 // })
+document.getElementById('btn').addEventListener('click', function () {
+    const createElement = document.createElement('p');
+    createElement.innerText = document.getElementById('textarea').value
+    document.getElementById('sec').append(createElement)
+
+})
