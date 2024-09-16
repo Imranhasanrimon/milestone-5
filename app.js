@@ -142,9 +142,17 @@
 // document.getElementById('ul').addEventListener('click', function () {
 //     console.log('ul is clicked');
 // })
-const items = document.getElementsByClassName('item');
-for (let item of items) {
-    item.addEventListener('click', function (event) {
-        console.log(event.target.parentNode);
-    })
-}
+// const items = document.getElementsByClassName('item');
+// for (let item of items) {
+//     item.addEventListener('click', function (event) {
+//         console.log(event.target.parentNode);
+//     })
+// }
+
+///                      summary m-26
+
+// const heading = document.getElementById('heading');
+// console.log(heading);
+// console.log(heading.textContent);
+// console.log(heading.innerText);
+// console.log(heading.innerHTML);
