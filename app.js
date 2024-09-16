@@ -191,29 +191,29 @@
 //         document.getElementById('btn').setAttribute('disabled', true)
 //     }
 // })
-document.getElementById('item2').addEventListener('click', function (event) {
-    console.log('item2 first clicked');
-    event.stopImmediatePropagation()
-})
-document.getElementById('item2').addEventListener('click', function (event) {
-    console.log('item2 second clicked');
-    event.stopImmediatePropagation()
-})
-document.getElementById('item2').addEventListener('click', function (event) {
-    console.log('item2 clicked');
-    event.stopPropagation()
-})
-document.getElementById('item2').addEventListener('click', function (event) {
-    console.log('item2 clicked');
-    event.stopPropagation()
-})
+// document.getElementById('item2').addEventListener('click', function (event) {
+//     console.log('item2 first clicked');
+//     event.stopImmediatePropagation()
+// })
+// document.getElementById('item2').addEventListener('click', function (event) {
+//     console.log('item2 second clicked');
+//     event.stopImmediatePropagation()
+// })
+// document.getElementById('item2').addEventListener('click', function (event) {
+//     console.log('item2 clicked');
+//     event.stopPropagation()
+// })
+// document.getElementById('item2').addEventListener('click', function (event) {
+//     console.log('item2 clicked');
+//     event.stopPropagation()
+// })
 
-document.getElementById('ul').addEventListener('click', function (stop) {
-    console.log('ul clicked');
-    stop.stopPropagation()
+// document.getElementById('ul').addEventListener('click', function (stop) {
+//     console.log('ul clicked');
+//     stop.stopPropagation()
 
-})
+// })
 
-document.getElementById('sec').addEventListener('click', function () {
-    console.log('section clicked');
-})
+// document.getElementById('sec').addEventListener('click', function () {
+//     console.log('section clicked');
+// })
