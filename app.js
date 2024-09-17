@@ -217,9 +217,16 @@
 // document.getElementById('sec').addEventListener('click', function () {
 //     console.log('section clicked');
 // })
-document.getElementById('btn').addEventListener('click', function () {
-    const createElement = document.createElement('p');
-    createElement.innerText = document.getElementById('textarea').value
-    document.getElementById('sec').append(createElement)
+// document.getElementById('btn').addEventListener('click', function () {
+//     const createElement = document.createElement('p');
+//     createElement.innerText = document.getElementById('textarea').value
+//     document.getElementById('sec').append(createElement)
+//     document.getElementById('textarea').value = ''
 
-})
+// })
+const newElement = document.createElement('div');
+const parent = document.querySelector('.comment');
+const textArea = document.getElementById('textarea')
+parent.insertBefore(newElement, textArea)
+// newElement.className = 'bg-black'
+newElement.classList.add('red')
