@@ -283,10 +283,10 @@
 
 
 /*           PROCODER BD            */
-const items = document.getElementsByClassName('item')
-const itemsArray = Array.from(items)
-for (let item of itemsArray) {
-    item.classList.add('bg-black')
-    item.setAttribute('title', 'this is tiel')
-    item.setAttribute('disabled', true)
-}
+// const items = document.getElementsByClassName('item')
+// const itemsArray = Array.from(items)
+// for (let item of itemsArray) {
+//     item.classList.add('bg-black')
+//     item.setAttribute('title', 'this is tiel')
+//     item.setAttribute('disabled', true)
+// }
