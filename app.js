@@ -255,18 +255,14 @@
 
 /*           COCEPTUAL SESSION            */
 
-let count = 0;
-let dom = document.getElementById('count').innerText = count;
+const count = document.getElementById('count');
 document.getElementById('reduce').addEventListener('click', function () {
-
-    let dom = document.getElementById('count').innerText = count;
-    count--;
-    dom = count
+    let currentCount = Number(count.innerText)
+    currentCount--;
+    count.innerText = currentCount
 })
-
 document.getElementById('add').addEventListener('click', function () {
-    let dom = document.getElementById('count').innerText = count;
-    count++;
-    dom = count
+    let currentCount = Number(count.innerText)
+    currentCount++;
+    count.innerText = currentCount
 })
-
