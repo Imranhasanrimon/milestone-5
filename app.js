@@ -280,3 +280,8 @@
 //         }
 //     })
 // }
+
+
+/*           PROCODER BD            */
+const items = document.getElementsByClassName('item')
+const itemsArray = Array.from(items)
