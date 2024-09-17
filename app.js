@@ -240,15 +240,33 @@
 //     })
 // }
 
-document.getElementById('list-container').addEventListener('click', function (event) {
-    event.target.parentNode.removeChild(event.target)
+// document.getElementById('list-container').addEventListener('click', function (event) {
+//     event.target.parentNode.removeChild(event.target)
 
+// })
+
+// document.getElementById('btn').addEventListener('click', function () {
+//     const listCont = document.getElementById('list-container');
+//     const creat = document.createElement('li');
+//     creat.innerText = 'adding a new list';
+//     creat.classList.add('item')
+//     listCont.append(creat)
+// })
+
+/*           COCEPTUAL SESSION            */
+
+let count = 0;
+let dom = document.getElementById('count').innerText = count;
+document.getElementById('reduce').addEventListener('click', function () {
+
+    let dom = document.getElementById('count').innerText = count;
+    count--;
+    dom = count
 })
 
-document.getElementById('btn').addEventListener('click', function () {
-    const listCont = document.getElementById('list-container');
-    const creat = document.createElement('li');
-    creat.innerText = 'adding a new list';
-    creat.classList.add('item')
-    listCont.append(creat)
+document.getElementById('add').addEventListener('click', function () {
+    let dom = document.getElementById('count').innerText = count;
+    count++;
+    dom = count
 })
+
