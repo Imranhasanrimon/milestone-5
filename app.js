@@ -224,9 +224,31 @@
 //     document.getElementById('textarea').value = ''
 
 // })
-const newElement = document.createElement('div');
-const parent = document.querySelector('.comment');
-const textArea = document.getElementById('textarea')
-parent.insertBefore(newElement, textArea)
+// const newElement = document.createElement('div');
+// const parent = document.querySelector('.comment');
+// const textArea = document.getElementById('textarea')
+// parent.insertBefore(newElement, textArea)
 // newElement.className = 'bg-black'
-newElement.classList.add('red')
+// newElement.classList.add('red')
+
+/*           event delegation            */
+
+// const items = document.getElementsByClassName('item');
+// for (let item of items) {
+//     item.addEventListener('click', function (event) {
+//         event.target.parentNode.removeChild(event.target)
+//     })
+// }
+
+document.getElementById('list-container').addEventListener('click', function (event) {
+    event.target.parentNode.removeChild(event.target)
+
+})
+
+document.getElementById('btn').addEventListener('click', function () {
+    const listCont = document.getElementById('list-container');
+    const creat = document.createElement('li');
+    creat.innerText = 'adding a new list';
+    creat.classList.add('item')
+    listCont.append(creat)
+})
