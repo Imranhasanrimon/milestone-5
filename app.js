@@ -266,17 +266,17 @@
 //     currentCount++;
 //     count.innerText = currentCount
 // })
-const lis = document.getElementsByTagName('li');
-let lastClicked = null;
-for (let li of lis) {
-    li.addEventListener('click', function (event) {
-        if (lastClicked === null) {
-            li.style.background = 'red'
-            lastClicked = li;
-        } else {
-            lastClicked.style.background = 'transparent';
-            li.style.background = 'red'
-            lastClicked = li;
-        }
-    })
-}
+// const lis = document.getElementsByTagName('li');
+// let lastClicked = null;
+// for (let li of lis) {
+//     li.addEventListener('click', function (event) {
+//         if (lastClicked === null) {
+//             li.style.background = 'red'
+//             lastClicked = li;
+//         } else {
+//             lastClicked.style.background = 'transparent';
+//             li.style.background = 'red'
+//             lastClicked = li;
+//         }
+//     })
+// }
