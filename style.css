@@ -15,3 +15,11 @@ input {
     border: none;
     background: rgb(255, 159, 142);
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+
+}
