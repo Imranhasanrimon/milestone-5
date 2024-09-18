@@ -308,5 +308,10 @@
 const item2 = document.getElementById('two');
 const parent = item2.parentElement
 // console.log(item2.parentNode);
-console.log(item2.nextElementSibling);
-console.log(item2.nextSibling);
+console.log(parent.children);
+const newele = document.createElement('li');
+const newele2 = document.createElement('li');
+newele.innerText = 'new brand'
+newele2.innerText = 'new brand2'
+parent.append(newele, newele2, 'ir', 'irmanf')
+console.log(parent.children);
