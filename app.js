@@ -292,7 +292,7 @@
 // }
 
 /*           COCEPTUAL SESSION (rokib)            */
-// traversing dom Element 
+// traversing dom Element
 // single Element Selection
 
 
@@ -305,13 +305,14 @@
 // console.log(ul.children);
 // console.log(document.querySelectorAll('.item'));
 
-const item2 = document.getElementById('two');
-const parent = item2.parentElement
+// const item2 = document.getElementById('two');
+// const parent = item2.parentElement
 // console.log(item2.parentNode);
-console.log(parent.children);
-const newele = document.createElement('li');
-const newele2 = document.createElement('li');
-newele.innerText = 'new brand'
-newele2.innerText = 'new brand2'
-parent.append(newele, newele2, 'ir', 'irmanf')
-console.log(parent.children);
+// console.log(parent.children);
+// const newele = document.createElement('li');
+// const newele2 = document.createElement('li');
+// newele.innerText = 'new brand'
+// newele2.innerText = 'new brand2'
+// parent.append(newele, newele2, 'ir', 'irmanf')
+// console.log(parent.children);
+document.querySelector('ul').removeChild(document.getElementById('last'), document.getElementById(''))
