@@ -325,6 +325,7 @@
 //     num.innerText = sum;
 // }
 
+//counter project
 // document.getElementById('reduce').addEventListener('click', function () {
 //     sum -= 1;
 //     const num = document.getElementById('num');
@@ -332,11 +333,11 @@
 // })
 
 // user review project
-document.getElementById('btn').addEventListener('click', function () {
-    const container = document.querySelector('.container')
-    let textValue = document.getElementById('textarea').value;
-    const newele = document.createElement('p');
-    newele.innerText = textValue;
-    document.getElementById('textarea').value = ''
-    container.append(newele)
-})
+// document.getElementById('btn').addEventListener('click', function () {
+//     const container = document.querySelector('.container')
+//     let textValue = document.getElementById('textarea').value;
+//     const newele = document.createElement('p');
+//     newele.innerText = textValue;
+//     container.append(newele)
+//     document.getElementById('textarea').value = ''
+// })
