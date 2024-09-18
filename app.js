@@ -290,3 +290,10 @@
 //     item.setAttribute('title', 'this is tiel')
 //     item.setAttribute('disabled', true)
 // }
+
+/*           COCEPTUAL SESSION (rokib)            */
+// traversing dom Element 
+// single Element Selection
+const item1 = document.querySelector('.item');
+const item2 = document.getElementById('two');
+console.log(item1, item2);
