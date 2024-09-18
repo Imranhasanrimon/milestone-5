@@ -330,3 +330,13 @@
 //     const num = document.getElementById('num');
 //     num.innerText = sum;
 // })
+
+// user review project
+document.getElementById('btn').addEventListener('click', function () {
+    const container = document.querySelector('.container')
+    let textValue = document.getElementById('textarea').value;
+    const newele = document.createElement('p');
+    newele.innerText = textValue;
+    document.getElementById('textarea').value = ''
+    container.append(newele)
+})
