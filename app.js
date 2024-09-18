@@ -315,4 +315,18 @@
 // newele2.innerText = 'new brand2'
 // parent.append(newele, newele2, 'ir', 'irmanf')
 // console.log(parent.children);
-document.querySelector('ul').removeChild(document.getElementById('last'), document.getElementById(''))
+// document.querySelector('ul').removeChild(document.getElementById('last'), document.getElementById(''))
+// document.querySelector('.item').insertBefore()
+
+let sum = 0;
+function add() {
+    sum += 1;
+    const num = document.getElementById('num');
+    num.innerText = sum;
+}
+
+document.getElementById('reduce').addEventListener('click', function () {
+    sum -= 1;
+    const num = document.getElementById('num');
+    num.innerText = sum;
+})
