@@ -294,6 +294,12 @@
 /*           COCEPTUAL SESSION (rokib)            */
 // traversing dom Element 
 // single Element Selection
-const item1 = document.querySelector('.item');
-const item2 = document.getElementById('two');
-console.log(item1, item2);
+
+
+// const item1 = document.querySelector('.item');
+// const item2 = document.getElementById('two');
+// console.log(item1, item2);
+
+const ul = document.querySelector('ul')
+console.log(ul.childNodes);
+console.log(ul.children);
