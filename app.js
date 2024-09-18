@@ -300,6 +300,13 @@
 // const item2 = document.getElementById('two');
 // console.log(item1, item2);
 
-const ul = document.querySelector('ul')
-console.log(ul.childNodes);
-console.log(ul.children);
+// const ul = document.querySelector('ul')
+// console.log(ul.childNodes);
+// console.log(ul.children);
+// console.log(document.querySelectorAll('.item'));
+
+const item2 = document.getElementById('two');
+const parent = item2.parentElement
+// console.log(item2.parentNode);
+console.log(item2.nextElementSibling);
+console.log(item2.nextSibling);
