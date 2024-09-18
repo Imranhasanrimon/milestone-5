@@ -318,15 +318,15 @@
 // document.querySelector('ul').removeChild(document.getElementById('last'), document.getElementById(''))
 // document.querySelector('.item').insertBefore()
 
-let sum = 0;
-function add() {
-    sum += 1;
-    const num = document.getElementById('num');
-    num.innerText = sum;
-}
+// let sum = 0;
+// function add() {
+//     sum += 1;
+//     const num = document.getElementById('num');
+//     num.innerText = sum;
+// }
 
-document.getElementById('reduce').addEventListener('click', function () {
-    sum -= 1;
-    const num = document.getElementById('num');
-    num.innerText = sum;
-})
+// document.getElementById('reduce').addEventListener('click', function () {
+//     sum -= 1;
+//     const num = document.getElementById('num');
+//     num.innerText = sum;
+// })
