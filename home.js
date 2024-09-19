@@ -6,8 +6,10 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     if (pin === '1234') {
         const balance = Number(document.getElementById('balance').innerText);
         document.getElementById('balance').innerText = balance + amount;
-        console.log('money added');
     } else {
         alert('failed to add money');
     }
 })
+const box = document.getElementById('box');
+console.log(box.children);
+console.log(box.childNodes);
