@@ -39,3 +39,7 @@ document.getElementById('addmoney').addEventListener('click', function (event) {
     document.getElementById('cashout').classList.remove('btn-primary')
     document.getElementById('addmoney').classList.add('btn-primary')
 })
+//this is to navigate home
+document.getElementById('home-btn').addEventListener('click', function (event) {
+    location.href = '/index.html'
+})
