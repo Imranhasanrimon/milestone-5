@@ -350,7 +350,9 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
 
     if (phoneNumber === '01755' && pinNumber === '1234') {
         console.log('you are logged in ');
+        location.href = '/home.html'
+
     } else {
-        console.log('wrong pass or phone');
+        alert('wrong pass or phone');
     }
 })
