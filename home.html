@@ -32,7 +32,7 @@
                     </div>
                     <div class="divider"></div>
                     <!-- add money form start  -->
-                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -55,17 +55,34 @@
                         </form>
                     </div>
                     <!-- add money form end  -->
+                    <!-- cashout form start  -->
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Amount</span>
+                                </label>
+                                <input type="text" placeholder="Amount" id="input-add-money"
+                                    class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">PIN</span>
+                                </label>
+                                <input type="password" placeholder="Your PIN" id="input-pin-number"
+                                    class="input input-bordered" required />
 
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="btn-cashOut" class="btn btn-primary">Cash Out</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- cashout form end  -->
                 </div>
             </div>
         </div>
     </main>
-    <div id="box">
-        I'm text node
-        <div>I'm element node 1</div>
-        <!-- this is comment  -->
-        <div>I'm element node 2</div>
-    </div>
     <script src="/home.js"></script>
 </body>
 

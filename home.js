@@ -10,6 +10,3 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
         alert('failed to add money');
     }
 })
-const box = document.getElementById('box');
-console.log(box.children);
-console.log(box.childNodes);
