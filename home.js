@@ -23,5 +23,19 @@ document.getElementById('btn-cashOut').addEventListener('click', function (event
     } else {
         alert('wrong password')
     }
-    console.log(amountCashOut, currenBalance);
+})
+
+//this is to navigate cashout 
+document.getElementById('cashout').addEventListener('click', function (event) {
+    document.getElementById('toggle-cashout').classList.remove('hidden')
+    document.getElementById('toggle-addmoney').classList.add('hidden')
+    document.getElementById('cashout').classList.add('btn-primary')
+    document.getElementById('addmoney').classList.remove('btn-primary')
+})
+//this is to navigate addmoney 
+document.getElementById('addmoney').addEventListener('click', function (event) {
+    document.getElementById('toggle-cashout').classList.add('hidden')
+    document.getElementById('toggle-addmoney').classList.remove('hidden')
+    document.getElementById('cashout').classList.remove('btn-primary')
+    document.getElementById('addmoney').classList.add('btn-primary')
 })
